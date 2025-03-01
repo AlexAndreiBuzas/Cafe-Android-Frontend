@@ -1,0 +1,48 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+local.properties
+
+# User-specific files
+*.iml
+.idea/
+*.log
+*.xml
+*.class
+
+# OS-specific
+.DS_Store
+
+# Android Studio
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+
+# Jetpack Compose Preview Cache
+.intermediates/
+.composes/
+
+# Kotlin/Java files
+*.kotlin_module
+
+# Test reports
+reports/
+outputs/
+
+# Keystore files (if you generate them locally for signing)
+*.jks
+
+# Gradle caches
+.gradle/
+build/
+
+# NDK
+obj/
+
+# Misc
+*.log
+*.lock
