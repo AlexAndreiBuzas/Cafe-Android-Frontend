@@ -3,7 +3,7 @@ package com.alexandrei.cafeapp.ui.screens.register
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.alexandrei.cafeapp.domain.model.AuthState
-import com.alexandrei.cafeapp.domain.usecase.RegisterUseCase
+import com.alexandrei.cafeapp.domain.usecase.auth.RegisterUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

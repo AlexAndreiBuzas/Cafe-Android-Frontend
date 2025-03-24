@@ -1,4 +1,4 @@
-package com.alexandrei.cafeapp.data.network.response
+package com.alexandrei.cafeapp.data.network.response.auth
 
 data class AuthResponse(
     val token: String,

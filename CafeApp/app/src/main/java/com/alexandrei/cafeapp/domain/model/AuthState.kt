@@ -1,6 +1,6 @@
 package com.alexandrei.cafeapp.domain.model;
 
-import com.alexandrei.cafeapp.data.network.response.AuthResponse
+import com.alexandrei.cafeapp.data.network.response.auth.AuthResponse
 
 sealed class AuthState {
     data object Idle : AuthState()

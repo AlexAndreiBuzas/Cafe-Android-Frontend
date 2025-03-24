@@ -53,6 +53,7 @@ dependencies {
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
     implementation(libs.kotlin.stdlib)
+    implementation(libs.androidx.material.icons.extended)
 
     // Networking (Retrofit, Gson, OkHttp)
     implementation(libs.retrofit)
@@ -68,6 +69,9 @@ dependencies {
 
     // Hilt Dependency Injection
     implementation(libs.hilt.android)
+    implementation(libs.androidx.animation.core.lint)
+    implementation(libs.androidx.espresso.core)
+    implementation(libs.androidx.datastore.preferences)
     ksp(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
 

@@ -1,6 +1,6 @@
-package com.alexandrei.cafeapp.domain.usecase
+package com.alexandrei.cafeapp.domain.usecase.auth
 
-import com.alexandrei.cafeapp.data.network.response.AuthResponse
+import com.alexandrei.cafeapp.data.network.response.auth.AuthResponse
 import com.alexandrei.cafeapp.data.repository.AuthRepository
 import javax.inject.Inject
 

@@ -2,8 +2,8 @@ package com.alexandrei.cafeapp.di
 
 import com.alexandrei.cafeapp.data.ApiService
 import com.alexandrei.cafeapp.data.repository.AuthRepository
-import com.alexandrei.cafeapp.domain.usecase.LoginUseCase
-import com.alexandrei.cafeapp.domain.usecase.RegisterUseCase
+import com.alexandrei.cafeapp.domain.usecase.auth.LoginUseCase
+import com.alexandrei.cafeapp.domain.usecase.auth.RegisterUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

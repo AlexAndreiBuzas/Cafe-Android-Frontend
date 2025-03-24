@@ -1,9 +1,9 @@
 package com.alexandrei.cafeapp.data.repository
 
 import com.alexandrei.cafeapp.data.ApiService
-import com.alexandrei.cafeapp.data.network.request.LoginRequest
-import com.alexandrei.cafeapp.data.network.request.RegisterRequest
-import com.alexandrei.cafeapp.data.network.response.AuthResponse
+import com.alexandrei.cafeapp.data.network.request.auth.LoginRequest
+import com.alexandrei.cafeapp.data.network.request.auth.RegisterRequest
+import com.alexandrei.cafeapp.data.network.response.auth.AuthResponse
 import javax.inject.Inject
 
 class AuthRepository @Inject constructor(
